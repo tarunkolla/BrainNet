@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="287dp"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/brainnet_logo"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="53dp"
+            android:contentDescription="@string/app_logo" />
+
+        <EditText
+            android:id="@+id/editText_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/user_name"
+            android:autofillHints="" tools:targetApi="o" />
+
+        <Button
+            android:id="@+id/button_brainwave_Signal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brainwave_signal" />
+
+        <Spinner
+            android:id="@+id/spinner_server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"/>
+
+        <Button
+            android:id="@+id/button_authenticate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/authenticate" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/click_here_to_sign_up_for_brainnet" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
