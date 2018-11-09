@@ -11,6 +11,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            app:srcCompat="@drawable/brainnet_logo"
+            android:contentDescription="TODO" />
+
         <EditText
             android:id="@+id/select_user_name"
             android:layout_width="match_parent"

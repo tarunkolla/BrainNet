@@ -13,12 +13,21 @@
 
         <ImageView
             android:id="@+id/imageView_logo"
-            android:layout_width="287dp"
-            android:layout_height="153dp"
+            android:layout_width="match_parent"
+            android:layout_height="199dp"
+            android:contentDescription="@string/app_logo"
             app:srcCompat="@drawable/brainnet_logo"
             tools:layout_editor_absoluteX="62dp"
-            tools:layout_editor_absoluteY="53dp"
-            android:contentDescription="@string/app_logo" />
+            tools:layout_editor_absoluteY="53dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="BrainNet Group 2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
         <EditText
             android:id="@+id/editText_userName"
