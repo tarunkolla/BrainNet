@@ -10,4 +10,5 @@
         <string name="enter_user_name">Enter User Name</string>
         <string name="register">Register</string>
         <string name="button">Button</string>
+        <string name="brainwave_password">BrainWave Password</string>
 </resources>
