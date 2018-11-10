@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "922320939762",
+    "firebase_url": "https://brainnet-ad629.firebaseio.com",
+    "project_id": "brainnet-ad629",
+    "storage_bucket": "brainnet-ad629.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922320939762:android:ec5ed9acb729a279",
+        "android_client_info": {
+          "package_name": "com.example.tkolla.brainnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922320939762-rnftvj4j23tpaji12e07nj15cj43d5a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tkolla.brainnet",
+            "certificate_hash": "2f9615a17ee426957e2d64b6818bd18b11dcf1bc"
+          }
+        },
+        {
+          "client_id": "922320939762-4lf0tkk9g1t1jgvhadhl6cvsolmlcuhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANa_510kbbLL4__-f5ZeXXoDeVYt61Snw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922320939762-4lf0tkk9g1t1jgvhadhl6cvsolmlcuhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

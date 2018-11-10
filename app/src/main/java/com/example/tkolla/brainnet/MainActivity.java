@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         //spinner for server selection
         String[] arraySpinner = new String[]{
                 "Automatic", "Cloud Server", "Fog Server"
