@@ -39,16 +39,24 @@
             android:autofillHints="" tools:targetApi="o" />
 
         <Button
-            android:id="@+id/button_brainwave_Signal"
+            android:id="@+id/button_brainwave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/brainwave_signal" />
+            android:text="BrainWave" />
+
+        <TextView
+            android:id="@+id/brain_wave_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
 
         <Spinner
             android:id="@+id/spinner_server"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:spinnerMode="dropdown"/>
+
+
 
         <Button
             android:id="@+id/button_authenticate"

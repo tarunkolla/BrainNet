@@ -1,14 +1,16 @@
 <resources>
-        <string name="app_name">BrainNet</string>
-        <string name= "app_logo">Image displays BrainNet logo</string>>
-        <string name = "success">Successfully logged in</string>
-        <string name="brainwave_signal">Brainwave Signal</string>
-        <string name="click_here_to_sign_up_for_brainnet">Click here to Sign Up for BrainNet</string>
-        <string name="todo">TODO</string>
-        <string name="user_name">User Name</string>
-        <string name="authenticate">Authenticate</string>
-        <string name="enter_user_name">Enter User Name</string>
-        <string name="register">Register</string>
-        <string name="button">Button</string>
-        <string name="brainwave_password">BrainWave Password</string>
+    <string name="app_name">BrainNet</string>
+    <string name="app_logo">Image displays BrainNet logo</string>>
+    <string name="success">Successfully logged in</string>
+    <string name="brainwave_signal">Brainwave Signal</string>
+    <string name="click_here_to_sign_up_for_brainnet">Click here to Sign Up for BrainNet</string>
+    <string name="todo">TODO</string>
+    <string name="user_name">User Name</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="register">Register</string>
+    <string name="button">Button</string>
+    <string name="brainwave_password">BrainWave Password</string>
+    <string name="title_activity_logged_in">LoggedIn</string>
+    <string name="title_activity_logged__in">Logged_In</string>
 </resources>
